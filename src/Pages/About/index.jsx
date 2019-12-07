@@ -1,6 +1,14 @@
 import React from "react";
 import "./About.css";
+import Heading from "../../assets/images/hi.jpg";
 
-const About = () => <h1> About</h1>;
+const About = () => (
+  <>
+    <header className="header-about">Header!</header>
+    <section>
+      <div> </div>
+    </section>
+  </>
+);
 
 export default About;
